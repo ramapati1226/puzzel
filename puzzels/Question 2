@@ -1,0 +1,56 @@
+First level each bottle of wine with both its decimal number 1 to 1000 and the binary equivalent.
+Where a 1 Means the prisoner who are not poisoned and 0 means the prisoner who are poisoned.
+Label the 10 prisoners A to j. Then each bottle serves as an indicator for which prisoners are to drink from a bottle of wine. 
+For example Now let’s suppose that everyone except prisoner j is poisoned.
+
+	        A  B  C  D  E  F  G  H  I  J
+
+	    	0  0  0  0  0  0  0  0  0  1
+
+
+If we translate 0000000001 into decimal we get 1.
+ Which means bottle 1 was poisoned. 
+This confirms what we know to be true because Prisoner j was the only prisoner not to drink from bottle
+
+
+
+convert the number of prisoned prisoners back into decimal notation to reveal which bottle has been poisoned.
+
+
+
+		      A  B  C  D  E  F  G  H  I  J
+
+	    1 	0  0  0  0  0  0  0  0  0  1
+
+	    2 	0  0  0  0  0  0  0  0  1  0
+
+	    3 	0  0  0  0  0  0  0  0  1  1
+
+	    4 	0  0  0  0  0  0  0  1  0  0
+
+	    5 	0  0  0  0  0  0  0  1  0  1
+
+	    6 	0  0  0  0  0  0  0  1  1  0
+
+	    7 	0  0  0  0  0  0  0  1  1  1
+	    
+	    8 	0  0  0  0  0  0  1  0  0  0
+	    
+	    9 	0  0  0  0  0  0  1  0  0  1
+
+	    10  	0  0  0  0  0  0  1  0  1  0	
+
+
+
+How about if prisoners A, C, E, G and I are poisoned?
+
+	
+				A  B  C  D  E  F  G  H  I  J
+				
+				0  1  0  1  0  1  0  1  0  1
+
+
+
+translate the number 0101010101 into decimal to determine which bottle it was.
+ 010101010 = 170
+Hence, bottle number 170 was the poisonous bottle.
