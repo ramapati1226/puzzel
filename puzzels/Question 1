@@ -1,0 +1,8 @@
+Collision doesn’t happen only in following two cases
+1) All boys move in a counterclockwise direction.
+
+2) All boys move in a clockwise direction.
+
+Since every boy has two choices there are a total 23  possibilities.
+
+Out of 2^3 possibilities, only 2 don’t cause collisions. The probability of non-collision is 
