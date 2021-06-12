@@ -1,0 +1,17 @@
+import numpy as np
+
+def isToeplitzMatrix(matrix):
+    np.b = []
+    for k, l in enumerate(matrix):
+        if 0 < k < len(matrix):
+            if b != l[1:]:
+                return False
+        b = l[:-1]
+    return True  
+r=int(input("enter row" ))
+c=int(input("enter col" )) 
+entries=list(map(int,input().split()))
+matrix=np.array(entries).reshape(r, c)
+print(matrix)
+
+print(isToeplitzMatrix(matrix))
