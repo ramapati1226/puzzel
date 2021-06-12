@@ -1,0 +1,4 @@
+You have groups of 40 and 10 coins. So the possibilities are :
+
+Group 1- 10 Tails, Group 2 - 40 Heads. So when you flip the coins of Group 1, there will be 10 Heads and no Tail in Group 1 and 40 H and 0 T in Group 2. So 0 tails in both group..
+Group 1-9T,1H, ; Group2- 1T ,39H..Flipping Group 1-1T, 9H and Group 2- 1T and 39 H..So 1 tail in both groups.
